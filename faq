@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Hipis">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<title>kurwa.club @ faq</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body ontouchstart="">
+<content>
+<header>
+<p><a href="https://kurwa.club"><img src="logo.png"></a></p>
+<p><h1>frequently asked questions</h1></p>
+<p><h2>if you have a question that is not here - ask on <a href="discord">discord</a></h2></p>
+</header>
+<nav>
+<ul>
+<li><p><a href="auth">login</a></p></li>
+<li><p><a href="register">register</a></p></li>
+</ul>
+</nav>
+<div class="notification">
+</div>
+<main>
+<p><b>q.</b> is this service paid?</p>
+<p><b>a.</b> no, this service is free. you can buy <a href="premium">premium</a> but it is not required</p>
+<br>
+<p><b>q.</b> how i can get an invite?</p>
+<p><b>a.</b> get invited by user who is already registered or boost our discord server</p>
+<br>
+<p><b>q.</b> i have not received verification email, what now?</p>
+<p><b>a.</b> wait up to 15 minutes and then try <a href="https://auth.kurwa.club/resend">request new email</a>. if you still have not received it, open a ticket on discord</p>
+<br>
+<p><b>q.</b> what is maximum upload file size?</p>
+<p><b>a.</b> maximum upload file size is 50mb per file</p>
+<br>
+<p><b>q.</b> where i can download sharex config?</p>
+<p><b>a.</b> go to settings > third-party uploaders > sharex</p>
+<br>
+<p><b>q.</b> how i can get user role on discord?</p>
+<p><b>a.</b> link your discord account in settings > link discord</p>
+<br>
+<p><b>q.</b> i linked wrong discord account, can i change that?</p>
+<p><b>a.</b> yes, you can by opening ticket on discord</p>
+<br>
+<p><b>q.</b> can i share my account/token?</p>
+<p><b>a.</b> no, you cant</p>
+<br>
+<p><b>q.</b> can i have more than one account?</p>
+<p><b>a.</b> no, for what?</p>
+<br>
+<p><b>q.</b> can i sell my invites?</p>
+<p><b>a.</b> definitely not. respect our work</p>
+<br>
+<p><b>q.</b> i can pay crypto for premium upgrade?</p>
+<p><b>a.</b> we accept paypal and cryptocurrency (bitcoin, bitcoin cash and ethereum). if you want to pay using crypto, create a ticket on discord to get address</p>
+<br>
+<p><b>q.</b> file uploaded here is violating my rights. where i can report it?</p>
+<p><b>a.</b> to report uploaded file, you need to fill <a href="report">report form</a></p>
+</main>
+<footer>
+<ul>
+<li><p><a href="legal">legal</a></p></li>
+<li><p><a href="report">report abuse</a></p></li>
+<li><p><a href="faq">faq</a></p></li>
+<li><p><a href="discord">discord</a></p></li>
+<li><p><a href="https://status.e-z.host">service status</a></p></li>
+<li><p><a href="premium">premium</a></p></li>
+</ul>
+<br>
+<ul>
+<li><p>&copy; kurwa.club <script>document.write(new Date().getFullYear())</script></p></li>
+</ul>
+</footer>
+</content>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>

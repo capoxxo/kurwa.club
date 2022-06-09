@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Hipis">
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+
+    <title>kurwa.club</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body ontouchstart="">
+    
+    <content>
+      <header>
+        <p><a href="a"><img src="logo.png"></a></p>
+                  <p><h1>an invite-only image uploader</h1></p>
+              </header>
+
+      <nav>
+        <ul>
+                      <li><p><a href="auth">login</a></p></li>
+            <li><p><a href="register">register</a></p></li>
+                  </ul>
+              </nav>
+
+      <main>
+                  <p><h3>a testimonial from one of our users</h3></p>
+          <div class="card break">
+            <p><b>packrunner experience</b></p>
+            <p>&mdash; <i>cloudberry</i></p>
+          </div>
+          <br>
+          <p><h3>statistics</h3></p>
+          <div class="inline">
+            <div class="card left">
+              <p>users</p>
+              <p><b>2,273</b></p>
+            </div>
+            <div class="card right">
+              <p>premium users</p>
+              <p><b>60</b></p>
+            </div>
+          </div>
+          <br>
+          <div class="inline">
+            <div class="card left">
+              <p>files</p>
+              <p><b>442,561</b></p>
+            </div>
+            <div class="card right">
+              <p>storage used</p>
+              <p><b>103.39 gb</b></p>
+            </div>
+          </div>
+          <br>
+          <div class="inline">
+            <div class="card left">
+              <p>pastes</p>
+              <p><b>236</b></p>
+            </div>
+            <div class="card right">
+              <p>shortened urls</p>
+              <p><b>1,099</b></p>
+            </div>
+          </div>
+              </main>
+
+      <footer>
+        <ul>
+  <li><p><a href="legal">legal</a></p></li>
+  <li><p><a href="report">report abuse</a></p></li>
+  <li><p><a href="faq">faq</a></p></li>
+  <li><p><a href="discord">discord</a></p></li>
+  <li><p><a href="https://status.e-z.host">service status</a></p></li>
+  <li><p><a href="premium">premium</a></p></li>
+  </ul>
+<br>
+<ul>
+  <li><p>&copy; kurwa.club 2019-<script>document.write(new Date().getFullYear())</script></p></li>
+</ul>      </footer>
+    </content>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="fontawesome.js"></script>
+  <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+  <script>
+    twemoji.parse(document.body, {
+      callback: function(icon, options, variant) {
+        switch(icon) {
+          case "a9": // © copyright
+          case "ae": // ® registered trademark
+          case "2122": // ™ trademark
+          return false;
+        }
+        return "" . concat(options.base, options.size, "/", icon, options.ext);
+      }
+    });
+  </script>
+  <script src="webupload.js"></script>
+  <script src="copy.js"></script>
+</html>
